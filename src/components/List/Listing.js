@@ -20,7 +20,7 @@ function Listing() {
 			country: " korea",
 		},
 	];
-	let personList = people.map(peeps => <Person person={peeps} />);
+	let personList = people.map(peeps => <Person key={peeps.age}  person={peeps} />);
 
 	return <div>{personList}</div>;
 }
