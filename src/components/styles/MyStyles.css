@@ -1,0 +1,23 @@
+.primary{
+	color: orange;
+	font-weight: bolder;
+}
+
+.secondary{
+  color: red;
+  font-weight: bolder;
+	text-decoration: dotted;
+}
+
+.xfonty{
+	font-weight: bolder;
+	font-size:35px;
+	display: flex;
+	align-items: center;
+  justify-content: center; 
+}
+button{
+	font-weight: bolder;
+  font-size:15px;
+	margin:0 auto;
+}

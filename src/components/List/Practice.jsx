@@ -3,14 +3,13 @@ import Display from "./Display";
 
 function Practice() {
  const [pro, setPro] = useState([{
-	dat : 0
+	dat : "hello my name is eban emmanuel from nigeria",
+   name: "yes you speak : "
  }])
 
  
 const list = pro.map(x => <Display key={x.id} data={x}/>)
-	return <div>{list} 
- 
-	<button onClick={()=>setPro(x.dat + 1)}>click</button>
+	return <div>{list}  
 	</div>;
 
 }
