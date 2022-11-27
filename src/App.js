@@ -1,5 +1,6 @@
 import React from "react";
 import Con from "./components/Condition.js/Con";
+import { UserProvider } from "./components/context/UserContext";
 import Ehandle from "./components/eventHandling/Ehandle";
 import Form from "./components/form/Form";
 import Listing from "./components/List/Listing";
@@ -8,6 +9,7 @@ import Greet from "./components/props/Greet";
 import ParentComponent from "./components/props/ParentComponent";
 import Counter from "./components/state/Counter";
 import Styls from "./components/styles/Styls";
+import Classic from "./page/Classic";
 import ClassIndex from "./page/ClassIndex";
 // import Message from "./components/state/Message";
 
@@ -25,7 +27,10 @@ export default function App() {
 			 {/* <Practice/> */}
 			 {/* <Styls /> */}
 			 {/* <Form/> */}
-			 <ClassIndex />
+			 
+			 <UserProvider value="kinglsley">
+				<Classic/>
+			 </UserProvider>  
 		</div>
 	);
 }
