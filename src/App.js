@@ -11,6 +11,7 @@ import Counter from "./components/state/Counter";
 import Styls from "./components/styles/Styls";
 import Classic from "./page/Classic";
 import ClassIndex from "./page/ClassIndex";
+import Request from "./components/react-http/Request"
 // import Message from "./components/state/Message";
 
 export default function App() {
@@ -27,10 +28,12 @@ export default function App() {
 			 {/* <Practice/> */}
 			 {/* <Styls /> */}
 			 {/* <Form/> */}
-			 
+{/* 			 
 			 <UserProvider value="kinglsley">
 				<Classic/>
-			 </UserProvider>  
+			 </UserProvider>   */}
+			 <Request/>
+			  
 		</div>
 	);
 }
