@@ -17,6 +17,7 @@ import StateObj from "./hooks/useState/StateObj";
 import Example from "./hooks/useState/Example";
 import UseCounter from "./hooks/useEffect/UseCounter"
 import SetIn from "./hooks/useEffect/SetIn";
+import FetchData from "./hooks/useEffect/FetchData";
 // import Message from "./components/state/Message";
 
 export default function App() {
@@ -50,7 +51,8 @@ export default function App() {
 			here 
 			<Example/> */}
 			{/* <UseCounter /> */}
-			<SetIn/>
+			{/* <SetIn/> */}
+			<FetchData/>
 		</div>
 	);
 }
