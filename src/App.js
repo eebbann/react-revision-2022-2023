@@ -18,9 +18,14 @@ import Example from "./hooks/useState/Example";
 import UseCounter from "./hooks/useEffect/UseCounter"
 import SetIn from "./hooks/useEffect/SetIn";
 import FetchData from "./hooks/useEffect/FetchData";
+import ComponentA from "./components/context-hook/ComponentA";
+import ComponentK from "./components/context-hook/ComponentK";
+import ContextParent from "./page/ContextParent";
 // import Message from "./components/state/Message";
+ 
 
 export default function App() {
+
 	return (
 		<div>
 			{/* <Counter/> */}
@@ -52,7 +57,8 @@ export default function App() {
 			<Example/> */}
 			{/* <UseCounter /> */}
 			{/* <SetIn/> */}
-			<FetchData/>
+			{/* <FetchData/> */}
+		  <ContextParent />
 		</div>
 	);
 }
